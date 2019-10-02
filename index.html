@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	
+
+
+	.t{height: 170px; position: absolute; margin-top:360px; margin-left:50px; opacity: 0.3; transition: all 1s;}
+	.t:hover{ opacity: 1 }
+
+	.h{height: 170px; position: absolute; margin-top:50px; margin-left:50px; opacity: 0.3; transition: all 1s;}
+	.h:hover{ opacity: 1 }
+
+	.u{height: 170px; position: absolute; margin-top:10px; margin-left:1000px; opacity: 0.3; transition: all 1s;}
+	.u:hover{ opacity: 1 }
+
+	.m{height: 170px; position: absolute; margin-top:250px; margin-left:1000px; opacity: 0.3; transition: all 1s;}
+	.m:hover{ opacity: 1 }
+
+	.b{height: 170px; position: absolute; margin-top:500px; margin-left:1000px; opacity: 0.3; transition: all 1s;}
+	.b:hover{ opacity: 1 }
+
+	.zz{position: absolute; margin-top:30px; margin-left:350px; color: white;}
+
+
+
+@keyframes color {
+          0%   {color: lightblue;}
+          25%  {color: mistyrose;}
+          50%  {color: khaki;}
+          80% {color: black;}
+
+      }
+
+       h1{ animation: color infinite; animation-duration: 5s  ;font-size: 40px; font-weight: bold; }
+
+
+	</style>
+</head>
+<body>
+	<h1 class="zz">먹.는.건.참.을.수.없.어｡ﾟ+.(･∀･)ﾟ+.ﾟ</h1>
+
+	<img src="a.jpg" class="t" id="b" >
+	<audio src="FRY.mp3" loop id="bs"></audio>
+
+		<img src="b.jpg" class="h" id="c">
+	<audio src="mac.mp3" loop id="cs"></audio>
+
+	<img src="c.png" class="u" id="j">
+	<audio src="eat.mp3" loop id="js"></audio>
+
+		<img src="d.jpg" class="m" id="p">
+	<audio src="egg.wav" loop id="ps"></audio>
+
+	<img src="e.jpg" class="b" id="r">
+	<audio src="hh.wav" loop id="rs"></audio>
+
+
+<script type="text/javascript">
+		var bstate = "off";
+		b.onclick = function(){
+			if(bstate == "off"){
+				b.style.opacity = "1";
+				document.body.style.background = "url(A.gif)";
+				document.body.style.backgroundSize = "cover";
+				bs.play();
+				bstate = "on";	
+			}else{
+				b.style.opacity = "0.3";
+				bs.pause();
+				bstate = "off";	
+			}
+		}
+
+		var cstate = "off";
+		c.onclick = function(){
+			if(cstate == "off"){
+				c.style.opacity = "1";
+				document.body.style.background = "url(B.gif)";
+				document.body.style.backgroundSize = "cover";
+				cs.play();
+				cstate = "on";	
+			}else{
+				c.style.opacity = "0.3";
+				cs.pause();
+				cstate = "off";	
+			}
+		}
+
+		var cstate = "off";
+		c.onclick = function(){
+			if(cstate == "off"){
+				c.style.opacity = "1";
+				document.body.style.background = "url(B.gif)";
+				document.body.style.backgroundSize = "cover";
+				cs.play();
+				cstate = "on";	
+			}else{
+				c.style.opacity = "0.3";
+				cs.pause();
+				cstate = "off";	
+			}
+		}
+
+		var jstate = "off";
+		j.onclick = function(){
+			if(jstate == "off"){
+				j.style.opacity = "1";
+				document.body.style.background = "url(C.gif)";
+				document.body.style.backgroundSize = "cover";
+				js.volume = 1;
+				js.play();
+				jstate = "on";	
+			}else{
+				j.style.opacity = "0.3";
+				js.pause();
+				jstate = "off";	
+			}
+		}
+
+			var pstate = "off";
+		p.onclick = function(){
+			if(pstate == "off"){
+				p.style.opacity = "1";
+				document.body.style.background = "url(D.gif)";
+				document.body.style.backgroundSize = "cover";
+				ps.play();
+				pstate = "on";	
+			}else{
+				p.style.opacity = "0.3";
+				ps.pause();
+				pstate = "off";	
+			}
+		}
+
+		var rstate = "off";
+		r.onclick = function(){
+			if(rstate == "off"){
+				r.style.opacity = "1";
+				document.body.style.background = "url(E.gif)";
+				document.body.style.backgroundSize = "cover";
+				rs.play();
+				rstate = "on";	
+			}else{
+				r.style.opacity = "0.3";
+				rs.pause();
+				rstate = "off";	
+			}
+		}
+
+
+
+	</script>
+
+</body>
+</html>
